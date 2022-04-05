@@ -1,0 +1,217 @@
+:root{
+    --primary-text-color: #FFFFFF;
+    --title-text-color: #212121;
+    --acent-text-color: #757575;
+    --primary-bg-color: #2196F3;
+}
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+/* hader */
+.page-header { 
+display: inline;
+}
+
+.logo{
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+line-height: 1.19;
+color: #2196F3;
+}
+.logo-part{
+color: var(--title-text-color);
+}
+
+
+/* navigation */
+.site-nav :hover {
+ color: var(--acent-text-color);   
+}
+.site-nav :focus{
+color: var(--acent-text-color);
+}
+.link{
+color: var(--title-text-color);
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+.link-courrent{
+color: var(--primary-bg-color);
+font-size: 14px;
+line-height: 1,14px;
+letter-spacing: 0.02em;
+}
+
+/* contacts */
+.contacts{
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
+
+}
+
+.link-contacts{
+    color: var(--acent-text-color);
+    font-style: normal;
+}
+
+.link-contacts:hover{ 
+color: var(--primary-bg-color);
+}
+..link-contacts:focus{
+    color: var(--title-text-color);
+}
+.contacts-tel{
+color: var(--acent-text-color);
+font-style: normal;
+}
+.contacts-tel:hover{
+    color: var(--primary-bg-color);
+}
+.contacts-tel:focus{
+    color: var(--title-text-color);
+}
+/* hero */
+.hero{
+background-color: #2F303A;
+}
+
+.hero-title{
+color: var(--primary-text-color);
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+/* filter */
+.site-filter{
+
+}
+
+.button-primary{
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+line-height: 1.6;
+cursor: pointer;
+}
+.button-secondary{
+    color: var(--title-text-color);
+    background-color:  var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    cursor: pointer;
+}
+   
+
+.button-primary:hover{
+    background-color: var(--title-text-color);
+}
+.button-secondary:hover{
+    background-color: var(--acent-text-color) ;
+}
+.button-primary:focus{
+    background-color: var(--primary-bg-color) ;
+}
+.button-secondary:focus{
+    background-color: var(--acent-text-color)
+}
+
+.button-primary:active{
+    background-color:tomato ;
+}
+.button-secondary:active{
+    background-color: green ;
+}
+
+/* futures */
+.section-title{
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
+.section-p{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--acent-text-color);
+}
+
+/* work */
+.work-title{
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+    
+    /* team */
+    .team{
+color: var(--primary-text-color);
+    }
+.team-title{
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.team-name{
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--title-text-color)
+}
+.team-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--acent-text-color);
+
+}
+/* section */
+.section-title{
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.section-p{
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+color: var(--acent-text-color);
+}
+/* footer */
+.page-footer{
+    background-color: var(--title-text-color);
+}
+
+
+.location{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+font-style: normal;
+}
+.location:hover{
+    color: var(--primary-bg-color);
+    
+}
+.location:focus{
+    color: var(--title-text-color);
+}
+
