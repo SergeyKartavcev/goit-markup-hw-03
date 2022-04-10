@@ -81,18 +81,7 @@ margin: 0;
 .menu-link:hover{
     color: var(--primary-bg-color);
     }
-/* 
-.site-nav{
-    width: 0px;
-    height: 0px;
-    display: flex;
-}
-.site-nav :hover {
- color: var(--acent-text-color);   
-}
-.site-nav :focus{
-color: var(--acent-text-color);
-} */
+
 .link{
 text-decoration: none;
 color: var(--title-text-color);
@@ -322,6 +311,7 @@ letter-spacing: 0.03em;
 .flax-element{
     margin-right: 30px;
     margin-bottom: 30px;
+    border-bottom: ;
 }
 
 .flax-element:nth-child(3n){
