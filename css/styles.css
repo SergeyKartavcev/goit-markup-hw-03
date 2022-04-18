@@ -270,9 +270,7 @@ color: var(--primary-bg-color);
 
 /* преимущества*/
 
-.fetures{
-    padding-top: 0;
-}
+
 .advant{
 display: flex;
 }
@@ -295,7 +293,6 @@ width: 270px;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     text-transform: uppercase;
-    margin-top: 94px;
     }
 
 .advant-text{
