@@ -47,6 +47,10 @@ padding: 0;
 }
 
 /* шапка*/
+
+.head{
+    padding: 0;
+}
 .page-header { 
     background: var(--primary-text-color);
     left: 0px;
@@ -217,7 +221,7 @@ color: var(--primary-bg-color);
 
 
 /* filter */
-.section-filter{
+.filters{
     padding-bottom: 0;
 }
 
@@ -228,6 +232,7 @@ color: var(--primary-bg-color);
 .site-filter{
     display: flex;
     justify-content: center;  
+    margin-bottom: 50px;
 }
 
 .filter{
@@ -349,7 +354,9 @@ width: 270px;
 }
 
 /* work */
-
+.work{
+    padding-bottom: 0;
+}
 
 .work-title{
     box-sizing: border-box;
