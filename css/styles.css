@@ -71,7 +71,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--primary-bg-color);
 text-decoration: none;
@@ -84,7 +84,7 @@ Font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
 text-decoration: none;
@@ -168,7 +168,6 @@ margin-right: 0;
 
 .link-contacts{
     color: var(--acent-text-color);
-    font-size: 14px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
@@ -225,10 +224,7 @@ color: var(--primary-bg-color);
     margin-bottom: 30px;
     border-radius: 4px;
     cursor: pointer;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 10px;
-    padding-top: 10px; 
+    padding: 10px 32px 10px 32px ;
 }
 
 
@@ -265,11 +261,9 @@ color: var(--primary-bg-color);
     line-height: 1.6;
     cursor: pointer;
     border-radius: 4px;  
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
+    padding: 6px 22px 6px 22px;
+
+} 
 
 .button-primary:hover{
     background-color: var(--primary-bg-color);
@@ -336,7 +330,7 @@ padding: 0;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
     text-decoration: none;
@@ -414,7 +408,7 @@ img{
 .team-name{
 font-weight: 500;
 font-size: 16px;
-line-height: 1.18px;
+line-height: 1.18;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
 text-align: center;
@@ -443,9 +437,7 @@ border-radius: 0px 0px 4px 4px;
 margin-left: 30px;
 flex-basis: calc((100% - 120px) / 4);
 }
-.userpic-item:last-child{
-margin-right: 15px;
-}
+
 /* footer */
 .footer{
 padding-top: 60px;
